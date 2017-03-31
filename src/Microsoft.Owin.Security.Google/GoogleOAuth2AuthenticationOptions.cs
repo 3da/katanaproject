@@ -105,5 +105,10 @@ namespace Microsoft.Owin.Security.Google
         /// access_type. Set to 'offline' to request a refresh token.
         /// </summary>
         public string AccessType { get; set; }
+
+        /// <summary>
+        /// prompt
+        /// </summary>
+        public string Prompt { get; set; }
     }
 }
